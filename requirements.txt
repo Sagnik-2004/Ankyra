@@ -1,0 +1,23 @@
+# Core PDF extraction and chunking
+pypdf>=5.0
+langchain-text-splitters>=0.3
+
+# Document-specific hybrid ontology discovery
+spacy>=3.7
+keybert>=0.8
+sentence-transformers>=3.0
+scikit-learn>=1.4
+numpy>=1.24
+openai>=1.50
+json-repair>=0.30
+
+# Local entity, relation, and attribute extraction
+# Install platform-appropriate PyTorch first if using a CUDA GPU.
+gliner2
+transformers>=4.40,<5
+accelerate>=0.30
+torch>=2.2
+
+# Graph export, retrieval, and entity/relation matching
+networkx>=3.2
+rapidfuzz>=3.9
